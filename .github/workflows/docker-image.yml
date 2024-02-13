@@ -3,11 +3,11 @@ name: Docker Build And Push To Docker Hub
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
-    name: Build Spring Boot
+    name: Build and Publish
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
