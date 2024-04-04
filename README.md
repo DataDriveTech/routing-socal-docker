@@ -1,5 +1,5 @@
 # routing-socal-docker
-Django + OSRM + Tensorflow in one docker image + Southern California Map 
+Django + OSRM + AI in one docker image + Southern California Map 
 
 ## Build
 
