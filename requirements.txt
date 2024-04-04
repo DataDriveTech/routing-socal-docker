@@ -13,7 +13,7 @@ drf-spectacular==0.27.1
 geopy==2.4.1
 gunicorn==21.2.0
 jax==0.4.25
-jaxlib==0.4.23
+jaxlib==0.4.26
 openpyxl==3.1.2
 pandas==2.2.1
 git+https://github.com/gis-ops/py-osrm
