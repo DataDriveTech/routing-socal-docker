@@ -14,7 +14,7 @@ gunicorn==21.2.0
 jax==0.4.26
 jaxlib==0.4.26
 openpyxl==3.1.2
-pandas==2.2.1
+pandas==2.2.2
 git+https://github.com/gis-ops/py-osrm
 regex==2023.12.25
 xgboost==2.0.3
