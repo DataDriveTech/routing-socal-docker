@@ -1,6 +1,6 @@
 csvtool==0.2
 dj-rest-auth==6.0.0
-django-allauth==0.61.1
+django-allauth==0.62.1
 django-cors-headers==4.3.1
 django-environ==0.11.2
 django-import-export==3.3.8
