@@ -16,7 +16,7 @@ jaxlib==0.4.26
 openpyxl==3.1.2
 pandas==2.2.2
 git+https://github.com/gis-ops/py-osrm
-regex==2024.4.28
+regex==2024.5.10
 requests==2.31.0
 xgboost==2.0.3
 scikit-learn==1.4.2
