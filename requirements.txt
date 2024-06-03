@@ -14,6 +14,6 @@ openpyxl==3.1.2
 pandas==2.2.2
 git+https://github.com/whytro/py-osrm@dev
 regex==2024.5.15
-requests==2.32.2
+requests==2.32.3
 xgboost==2.0.3
 whitenoise==6.6.0
