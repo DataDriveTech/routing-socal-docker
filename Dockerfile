@@ -5,6 +5,6 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 COPY requirements.txt requirements.txt
 
-RUN apt-get update && apt-get -y install git build-essentials libgeos-dev libgeos++-dev libspatialindex-dev && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get -y install git build-essential libgeos-dev libgeos++-dev libspatialindex-dev && rm -rf /var/lib/apt/lists/*
 
 RUN pip install --upgrade pip && pip install -r requirements.txt
