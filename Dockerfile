@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM sebmilardo/py-osrm-socal@sha256:8a321b8d2459dacff90df7d1217ed25efecb451e6eeb90d6727b9e217a6e29a0
+FROM sebmilardo/py-osrm-socal@sha256:24a7218f7be94e20ec5b683eb7a834685b7d8d292048c44c463dab33eb8327bc
 ENV PATH="/venv/bin:$PATH"
 
 COPY requirements.txt requirements.txt
