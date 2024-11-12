@@ -11,7 +11,7 @@ drf-spectacular==0.27.2
 gunicorn==23.0.0
 openpyxl==3.1.5
 pandas==2.2.3
-regex==2024.9.11
+regex==2024.11.6
 requests==2.32.3
 scikit-learn==1.5.2
 xgboost-cpu==2.1.2
