@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM sebmilardo/py-osrm-socal:24.09
+FROM sebmilardo/py-osrm-socal:25.03
 ENV PATH="/venv/bin:$PATH"
 
 COPY requirements.txt requirements.txt
