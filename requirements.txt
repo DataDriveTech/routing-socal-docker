@@ -1,6 +1,6 @@
 dj-rest-auth==7.0.1
 django-allauth[socialaccount]==64.0.0
-django-cors-headers==4.6.0
+django-cors-headers==4.7.0
 django-environ==0.11.2
 django-import-export==4.3.3
 django-q2==1.7.6
