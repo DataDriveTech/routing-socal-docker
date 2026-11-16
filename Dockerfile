@@ -1,7 +1,9 @@
 # syntax=docker/dockerfile:1
-FROM sebmilardo/py-osrm-socal:25.12
-ENV PATH="/venv/bin:$PATH"
+FROM sebmilardo/py-osrm-socal:26.10
 
-COPY requirements.txt requirements.txt
+ENV UV_PROJECT_ENVIRONMENT="/usr/local" \
+    UV_COMPILE_BYTECODE=1 \
+    UV_NO_CACHE=1
 
-RUN pip install --upgrade pip && pip install -r requirements.txt
+COPY pyproject.toml uv.lock ./
+RUN uv sync --frozen --no-install-project --no-dev
